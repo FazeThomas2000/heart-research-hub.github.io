@@ -457,17 +457,24 @@ footer {
 .social__icons i:hover{
   color: #ce6ad1fa;
 }
+
 .footer__bar {
   background: #af3a9c;
   text-align: center;
   padding: 10px 0;
   margin-top: 50px;
 }
+
 .footer__bar p {
   color: #000000;
   margin: 0;
   font-size: 16px;
   padding: 7px;
+}
+
+.footer__bar .developer-credit {
+  font-size: 0.75rem; 
+  opacity: 0.7; 
 }
 
 @media (width < 900px) {
