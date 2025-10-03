@@ -411,7 +411,26 @@ border-radius: 10px;
   color: black;
 }
 
+.event__subheader {
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  letter-spacing: 5px;
+  text-align: center;
+}
 
+.event__header {
+  max-width: 800px;
+  margin-inline: auto;
+  font-size: 3rem;
+  color: var(--white);
+  font-family: var(--header-font);
+  letter-spacing: 2px;
+  text-align: center;
+}
 
 footer {
     background: #a45ac2;
