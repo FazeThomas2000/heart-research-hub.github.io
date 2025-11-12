@@ -281,6 +281,19 @@ nav {
   margin-bottom: 0.75rem;
 }
 
+.team__nav__two {
+  display: block;
+  padding-left: 65rem;
+  text-align: right;
+  margin: 3rem;
+}
+
+.team__nav__two a {
+  color: var(--white);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
 .section__header__team {
     margin-bottom: 2rem;
     font-size: 3rem;
@@ -572,6 +585,14 @@ footer {
       .team__nav {
         flex-direction: column;
         align-items: center;
+      }
+
+      .team__nav__two {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin-top: 1rem;
+        list-style: none;
       }
 
       .team__card {
