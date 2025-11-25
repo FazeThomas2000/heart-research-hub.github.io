@@ -292,17 +292,30 @@ nav {
   margin-bottom: 0.75rem;
 }
 
+.team__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
 .team__nav__two {
-  display: block;
-  padding-left: 65rem;
-  text-align: right;
-  margin: 3rem;
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 .team__nav__two a {
-  color: var(--white);
-  font-size: 0.9rem;
-  font-weight: 400;
+    color: var(--white);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.team__nav__two a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .section__header__team {
