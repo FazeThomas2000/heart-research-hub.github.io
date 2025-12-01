@@ -16,6 +16,24 @@
   box-sizing: border-box;
 }
 
+.btn {
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Lisu Bosa", serif;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -62,6 +80,53 @@
   font-weight: 400;
   font-family: var(--header-font);
   color: var(--secondary-color);
+}
+
+.register__subheader {
+    font-size: 3rem;     
+    font-weight: 600;      
+    line-height: 1.1;      
+    color: black;  
+    margin-bottom: 1rem;
+    text-align: center;    
+}
+
+.register__description {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
+.register__container {
+  display: grid;
+}
+
+.register__img {
+  height: 100%;
+}
+
+.register__img img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center right;
+}
+
+.register__content .register__description {
+  font-weight: 500;
+}
+
+.register__content .register__description span {
+  font-size: 1.5rem;
+}
+
+.register__btn {
+    padding: 0.75rem 1rem;
+    outline: none;
+    font-size: 1rem;
+    color: var(--white);
+    cursor: pointer;
 }
 
 .event__header {
@@ -371,6 +436,8 @@ nav {
   margin-bottom: 1rem;
 }
 
+
+
 .event__grid {
   margin-top: 4rem;
   display: grid;
@@ -465,6 +532,30 @@ nav {
 
   .doctor__content :is(.doctor__header, .doctor__description, .story__link) {
     text-align: left;
+  }
+
+  .register__container {
+    grid-template-columns: 1fr 1fr;
+}
+
+.register__img {
+    order: 2;
+}
+
+.register__content {
+    order: 1;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers vertically inside the column */
+    align-items: center;     /* centers horizontally */
+    text-align: center;
+}
+
+  .register__content 
+  :is(.section__subheader, .register__description, .register__btn) {
+    text-align: center;
+
   }
 
   .event__grid {

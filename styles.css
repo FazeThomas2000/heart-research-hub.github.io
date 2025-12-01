@@ -180,10 +180,6 @@ nav {
   color: var(--text-light);
 }
 
-.agenda__header h1 {
-  
-}
-
 .doctor__container {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
