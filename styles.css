@@ -271,6 +271,7 @@ nav {
   padding-left: 2rem;
   margin: 2rem;
   max-width: 300px;
+  list-style: none;
 }
 
 .team__nav a {
