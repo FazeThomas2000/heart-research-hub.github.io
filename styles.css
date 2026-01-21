@@ -370,7 +370,31 @@ nav {
 }
 
 .donation {
-  background-color: var(--primary-color);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(199, 54, 192, 0.568),
+        transparent
+    ), url(2024-Women-Health-Symposium-6.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-container {
+    padding-inline: 2rem;
+}
+
+.section-donate {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.donate-header {
+    font-size: 2.5rem;
 }
 
 .event__container {
