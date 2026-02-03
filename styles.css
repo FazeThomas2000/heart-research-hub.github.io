@@ -388,13 +388,40 @@ nav {
     padding-inline: 2rem;
 }
 
-.section-donate {
+.d__description__container {
+    display: grid;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.donate__header {
+    color: var(--secondary-color);
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
+.donate__container {
+    display: grid;
+    max-width: 600px;
+    margin: auto;
+}
+
+.section-donate {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
 .donate-header {
     font-size: 2.5rem;
+}
+
+.donate__image {
+    margin: auto;
+    max-width: 600px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .event__container {
