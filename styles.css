@@ -391,6 +391,8 @@ nav {
 .d__description__container {
     display: grid;
     text-align: left;
+    max-width: 1000px;
+    margin: auto;
     padding-bottom: 2rem;
 }
 
